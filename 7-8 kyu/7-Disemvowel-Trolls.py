@@ -26,8 +26,8 @@ def disemvowel(string_):
 
 import re
 def disemvowel(string_):
-    pattern = r'[aeiouAEIOU]'
-    return re.sub(pattern, "", string_)
+	pattern = r'[aeiouAEIOU]'
+	return re.sub(pattern, "", string_)
 
 
 
@@ -36,8 +36,8 @@ def disemvowel(string_):
 def disemvowel(string_):
 	store = ""
 	pattern = "aeiou"
-    for s in string_:
-        if s.lower() not in pattern:
-            store += s
-    return store
+	for s in string_:
+		if s.lower() not in pattern:
+			store += s
+	return store
 
