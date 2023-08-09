@@ -27,10 +27,10 @@ def high(x):
 
 # 2) shorter one:
 
-    def high(x):
-        x = x.split()
-        our_key = lambda word: sum(ord(char) - 96 for char in word)
-        return max(x, key=our_key)
+def high(x):
+    x = x.split()
+    our_key = lambda word: sum(ord(char) - 96 for char in word)
+    return max(x, key=our_key)
 
 
 test = high('take me to semynak')
