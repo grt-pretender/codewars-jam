@@ -26,3 +26,21 @@ function greet(name){
 function greet(name){
   return "Hello, " + (name == "Johnny" ? "my love" : name) + "!";
 }
+
+
+
+/* 
+==========================
+3) Using switch
+==========================
+*/
+
+function greet(name){
+  switch (name) {
+    case "Johnny":
+      return "Hello, my love!";
+      break;
+    default: 
+      return "Hello, " + name + "!";
+      }
+}
