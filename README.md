@@ -1,2 +1,2 @@
 # codewars-snippets
-Solutions using Python, JS and Rust
+Solutions mainly in Python, C++, Go
