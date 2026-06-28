@@ -1,13 +1,13 @@
 // Given an array of integers your solution should find the smallest integer.
 // You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
+// 1) Short solution
+
 package kata
 
 import (
 	"sort"
 )
-
-// 1) Short solution
 
 func SmallestIntegerFinder(numbers []int) int {
   sort.Ints(numbers)
